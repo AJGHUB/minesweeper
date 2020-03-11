@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html>
+  <!--__________________Head____________________________________________________-->
+
   <head>
-    <title>Minesweeper</title>
+    <title>AJowsey Minesweeper</title>
     <link rel="stylesheet" href="minesweeper.css">
     <script src="lib/tests.js"></script>
     <script src="lib/lib.js"></script>
     <script src="minesweeper.js"></script>
   </head>
-  <body>
+
+  <!--_____________________Body__________________________________________________-->
+
+  <body>  
+    <h1 class="title">  M I N E S W E E P E R  </h1>
+    <h2 class="title"> Click Squares to Play </h2>
+    <h2 class="title"> Avoid the bombs!! </h2>
+
     <div id="message"></div>
     <div id="notes"></div>
-    <div class="board"></div>
+
+
+    <!--__________________Gameboard_______________________________________________-->
+
+    <div class="board" style="width: 425px;">
+
+      <div class="row-0 col-0 mine hidden"></div>
+      <div class="row-0 col-1 mine hidden"></div>
+      <div class="row-0 col-2 hidden"></div>
+      <div class="row-0 col-3 hidden"></div>
+      <div class="row-0 col-4 mine hidden"></div>
+      <div class="row-1 col-0 mine hidden"></div>
+      <div class="row-1 col-1 hidden"></div>
+      <div class="row-1 col-2 hidden"></div>
+      <div class="row-1 col-3 mine hidden"></div>
+      <div class="row-1 col-4 mine hidden"></div>
+      <div class="row-2 col-0 mine hidden"></div>
+      <div class="row-2 col-1 mine hidden"></div>
+      <div class="row-2 col-2 mine hidden"></div>
+      <div class="row-2 col-3 hidden"></div>
+      <div class="row-2 col-4 hidden"></div>
+      <div class="row-3 col-0 mine hidden"></div>
+      <div class="row-3 col-1 mine hidden"></div>
+      <div class="row-3 col-2 hidden"></div>
+      <div class="row-3 col-3 hidden"></div>
+      <div class="row-3 col-4 mine hidden"></div>
+      <div class="row-4 col-0 mine hidden"></div>
+      <div class="row-4 col-1 hidden"></div>
+      <div class="row-4 col-2 hidden"></div>
+      <div class="row-4 col-3 mine hidden"></div>
+      <div class="row-4 col-4 mine hidden"></div>
+    </div>  
+    </div>
   </body>
 </html>

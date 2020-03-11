@@ -1,60 +1,78 @@
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Courier New', sans-serif;
+  padding: 50px 20px 50px 50px;
 }
 
+
 body {
-  display: flex;
+  display: block;
   align-items: center;
-  justify-content: flex-center;
   flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1544631008-534b4b6c1215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1205&q=80");
+  background-size: cover;
 }
 
 #message, #notes {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 #message {
   font-size: 1.5rem;
 }
 
-.board {
+.actualBoard {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;  
+  justify-content: center;
+  padding: 0px 0px 100px 0px;
+  margin: auto;
 }
 
-.board div {
-  color: green;
+.actualBoard div {
+  color: purple;
   font-size: 2rem;
   width: 75px;
   height: 75px;
   border: 1px #ccc dotted;
   border-radius: 10%;
-  background-color: white;
+  background-color: silver;
   margin: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  box-shadow: 0 0 0 1px steelblue;
+  }
+ 
 
-.board div:hover {
-  background-color: white;
+.actualBoard div:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 div.mine, div.mine:hover {
-  background: no-repeat center/60% url("images/bomb.svg") crimson;
+  background: no-repeat center/60% url("https://media.giphy.com/media/g2YdApKEna2sg/giphy.gif") crimson;
 }
 
 div.hidden {
-  background: #eee;
+  background: rgb(151, 145, 173);
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: rgb(53, 54, 68);
 }
 
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+  background: no-repeat center/60% url("images/mark.svg") rgb(10, 43, 54);
+}
+
+.title {
+  font-style: initial; 
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;  
+  justify-content: center;
+  padding: 10px 0px 10px 0px;
 }
