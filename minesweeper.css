@@ -24,7 +24,13 @@ body {
   font-size: 1.5rem;
 }
 
-.actualBoard {
+ .buttonStyle:hover {
+background-color: lavender;
+color: royalblue;
+border-radius: 20px;
+}
+
+.board {
   display: flex;
   flex-wrap: wrap;
   align-items: center;  
@@ -33,7 +39,7 @@ body {
   margin: auto;
 }
 
-.actualBoard div {
+.board div {
   color: purple;
   font-size: 2rem;
   width: 75px;
@@ -46,7 +52,7 @@ body {
   }
  
 
-.actualBoard div:hover {
+.board div:hover {
   background-color: rgb(255, 255, 255);
 }
 

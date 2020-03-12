@@ -7,25 +7,29 @@
     <link rel="stylesheet" href="minesweeper.css">
     <script src="lib/tests.js"></script>
     <script src="lib/lib.js"></script>
-    <script src="minesweeper.js"></script>
+    
   </head>
 
   <!--_____________________Body__________________________________________________-->
 
-  <body>  
+  <body> 
+
+    <div> 
     <h1 class="title">  M I N E S W E E P E R  </h1>
     <h2 class="title"> Click Squares to Play </h2>
     <h2 class="title"> Avoid the bombs!! </h2>
-
+    <!--<div class="title buttonStyle">
+      <button id="resetButton" type="button" onclick="resetButton"()>Reset Game</button>
+    </div>-->
     <div id="message"></div>
     <div id="notes"></div>
-
+    </div>
 
     <!--__________________Gameboard_______________________________________________-->
 
-    <div class="board" style="width: 425px;">
+    <div class="board" style="width: 500px;">
 
-      <div class="row-0 col-0 mine hidden"></div>
+      <!-- <div class="row-0 col-0 mine hidden"></div>
       <div class="row-0 col-1 mine hidden"></div>
       <div class="row-0 col-2 hidden"></div>
       <div class="row-0 col-3 hidden"></div>
@@ -49,8 +53,9 @@
       <div class="row-4 col-1 hidden"></div>
       <div class="row-4 col-2 hidden"></div>
       <div class="row-4 col-3 mine hidden"></div>
-      <div class="row-4 col-4 mine hidden"></div>
+      <div class="row-4 col-4 mine hidden"></div> -->
     </div>  
+     <script src="minesweeper.js"></script>
     </div>
   </body>
 </html>
