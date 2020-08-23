@@ -1,6 +1,6 @@
 # Minesweeper
 
-This challenge has you create a clone of the desktop game Minesweeper:
+This is the old school game Minesweeper:
 
 ![Old-school Minesweeper](minesweeper.jpg)
 
